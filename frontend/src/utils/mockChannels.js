@@ -1,30 +1,3 @@
-// // src/utils/mockChannels.js
-// import { mockVideos } from "./mockVideos";
-
-// export const mockChannels = [
-//   {
-//     id: "c1",
-//     channelName: "Code with John",
-//     owner: "John",
-//     description: "Coding tutorials and tech reviews.",
-//     banner: "https://via.placeholder.com/1200x300.png?text=Code+with+John",
-//     subscribers: 5200,
-//     videos: mockVideos.filter((v) => v.channelName === "Code with John"),
-//   },
-//   {
-//     id: "c2",
-//     channelName: "Jane Daily",
-//     owner: "Jane",
-//     description: "Lifestyle and daily vlogs.",
-//     banner: "https://via.placeholder.com/1200x300.png?text=Jane+Daily",
-//     subscribers: 1800,
-//     videos: mockVideos.filter((v) => v.channelName === "Jane Daily"),
-//   },
-// ];
-
-
-
-
 
 
 // src/utils/mockChannels.js
