@@ -1,0 +1,124 @@
+// // src/utils/mockChannels.js
+// import { mockVideos } from "./mockVideos";
+
+// export const mockChannels = [
+//   {
+//     id: "c1",
+//     channelName: "Code with John",
+//     owner: "John",
+//     description: "Coding tutorials and tech reviews.",
+//     banner: "https://via.placeholder.com/1200x300.png?text=Code+with+John",
+//     subscribers: 5200,
+//     videos: mockVideos.filter((v) => v.channelName === "Code with John"),
+//   },
+//   {
+//     id: "c2",
+//     channelName: "Jane Daily",
+//     owner: "Jane",
+//     description: "Lifestyle and daily vlogs.",
+//     banner: "https://via.placeholder.com/1200x300.png?text=Jane+Daily",
+//     subscribers: 1800,
+//     videos: mockVideos.filter((v) => v.channelName === "Jane Daily"),
+//   },
+// ];
+
+
+
+
+
+
+// src/utils/mockChannels.js
+import { mockVideos } from "./mockVideos";
+
+export const mockChannels = [
+  {
+    id: "c1",
+    channelName: "Code with John",
+    owner: { username: "John" },
+    description: "Coding tutorials and quick tech guides.",
+    banner: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1200&q=80&auto=format&fit=crop",
+    subscribers: 5200,
+    videos: mockVideos.filter((v) => v.channelName === "Code with John"),
+  },
+  {
+    id: "c2",
+    channelName: "Tech Explained",
+    owner: { username: "Alex" },
+    description: "Simplifying AI, ML, and modern technologies.",
+    banner: "https://images.unsplash.com/photo-1581092335365-9c4e1c3c1c0f?w=1200&q=80&auto=format&fit=crop",
+    subscribers: 8400,
+    videos: mockVideos.filter((v) => v.channelName === "Tech Explained"),
+  },
+  {
+    id: "c3",
+    channelName: "Travel with Mia",
+    owner: { username: "Mia" },
+    description: "Exploring the world one country at a time 🌍",
+    banner: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80&auto=format&fit=crop",
+    subscribers: 12000,
+    videos: mockVideos.filter((v) => v.channelName === "Travel with Mia"),
+  },
+  {
+    id: "c4",
+    channelName: "Chill Vibes",
+    owner: { username: "DJ Chill" },
+    description: "LoFi and relaxing tracks for your soul.",
+    banner: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1200&q=80&auto=format&fit=crop",
+    subscribers: 25000,
+    videos: mockVideos.filter((v) => v.channelName === "Chill Vibes"),
+  },
+  {
+    id: "c5",
+    channelName: "Bollywood Beats",
+    owner: { username: "Raj" },
+    description: "All about Bollywood music and vibes.",
+    banner: "https://images.unsplash.com/photo-1507838153414-b4b713384a76?w=1200&q=80&auto=format&fit=crop",
+    subscribers: 18500,
+    videos: mockVideos.filter((v) => v.channelName === "Bollywood Beats"),
+  },
+  {
+    id: "c6",
+    channelName: "Movie Buff",
+    owner: { username: "Sam" },
+    description: "Your daily dose of movie reviews and trailers.",
+    banner: "https://images.unsplash.com/photo-1581905764498-f1b60bae5f2e?w=1200&q=80&auto=format&fit=crop",
+    subscribers: 30000,
+    videos: mockVideos.filter((v) => v.channelName === "Movie Buff"),
+  },
+  {
+    id: "c7",
+    channelName: "Gamer Boy",
+    owner: { username: "Max" },
+    description: "Gameplay, walkthroughs, and leaks 🚀",
+    banner: "https://images.unsplash.com/photo-1617957741649-df0b8f57e1a1?w=1200&q=80&auto=format&fit=crop",
+    subscribers: 45200,
+    videos: mockVideos.filter((v) => v.channelName === "Gamer Boy"),
+  },
+  {
+    id: "c8",
+    channelName: "Esports Live",
+    owner: { username: "Nina" },
+    description: "Live esports tournaments and highlights.",
+    banner: "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=1200&q=80&auto=format&fit=crop",
+    subscribers: 27500,
+    videos: mockVideos.filter((v) => v.channelName === "Esports Live"),
+  },
+  {
+    id: "c9",
+    channelName: "Sports Central",
+    owner: { username: "Chris" },
+    description: "Football, basketball, and sports highlights.",
+    banner: "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=1200&q=80&auto=format&fit=crop",
+    subscribers: 33000,
+    videos: mockVideos.filter((v) => v.channelName === "Sports Central"),
+  },
+  {
+    id: "c10",
+    channelName: "Cricket World",
+    owner: { username: "Arjun" },
+    description: "All things cricket – from IPL to World Cup 🏏",
+    banner: "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=1200&q=80&auto=format&fit=crop",
+    subscribers: 41000,
+    videos: mockVideos.filter((v) => v.channelName === "Cricket World"),
+  },
+];
